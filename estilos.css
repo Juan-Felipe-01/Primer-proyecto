@@ -1,0 +1,195 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+body{
+    font-family: 'Press Start 2P';
+    background-image: url(Imagenesxd/elfondo.gif);
+    background-size: cover;
+}
+
+.titulo{
+    color:white;
+    -webkit-text-stroke: 1px black;
+    font-size: 40px;   
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    height: 2px;
+    padding: 2px;
+}
+
+.subtitulo{
+    font-size: 30px;
+    color:rgb(50, 50, 50);
+    height: 100px;
+    margin: 123px;
+    margin-left: 5px;
+    margin-right: 5px;
+    position: absolute;
+    top: -15%;
+}
+
+
+#Seleccion-personaje{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 712px;
+    height: 580px;
+    background-color:rgba(10, 10, 10, 0.7);
+    border: 5px solid black;
+    position: relative;
+    left: 25%;
+    right: 25%;
+    margin-top: 90px;
+    box-shadow: inset -1px -1px #292929, inset 1px 1px white, 
+    inset -2px -2px rgb(158, 158, 158), inset 2px 2px white;
+}
+
+.contenedor-tarjetas{
+
+    width: 95%;
+    height: 83%;
+    position: relative;
+    border: solid 17px;
+    border-color: gainsboro;
+    border-top: 84px solid gainsboro;
+    box-shadow: inset -1px -1px #292929, inset 1px 1px white, 
+    inset -2px -2px rgb(158, 158, 158), inset 2px 2px white;
+}
+
+.tarjetas-1{
+    display: flex;
+    position: absolute;
+}
+
+.tarjetas-2{
+    display: flex;
+    position: absolute;
+    top: 84%;
+}
+
+.tarjeta-juego{
+    width: 197px;
+    height: 187px;
+    background-color:rgba(10, 10, 10, 0.7);
+    box-sizing: border-box;
+    margin: 12px;
+    font-size: 18px;
+    margin-top: -185px;
+    font-size: 12px;
+    text-align: center;
+    color:rgb(50, 50, 50);
+    border: solid 5px;
+    border-color: gainsboro;
+}
+
+.nombre_perro{
+    background-color: gainsboro;
+    margin: 0px;
+    font-size: medium;
+}
+
+
+input:checked + .tarjeta-juego{
+    background-image: linear-gradient(rgba(175, 25, 183, 0.7), rgba(240, 56, 176, 0.7));
+    filter: contrast(130%);
+    box-shadow: 0 0 10px rgba(240, 56, 176, 0.7);
+  }
+
+.tarjeta-juego:hover{
+    background-image: linear-gradient(rgba(175, 25, 183, 0.7), rgba(240, 56, 176, 0.7));
+    filter: contrast(130%);
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(240, 56, 176, 0.7);
+}
+
+
+.imagenes-personajes{
+    width: 148px;
+}
+
+input {
+    display: none;
+  }
+
+.boton{
+    width: 216px;
+    height: 60px;
+    font-size: large;
+    font-family:'Press Start 2P';
+    background-color: gainsboro;
+    color:rgb(50, 50, 50);
+    margin-top: 16px;
+    position: absolute;
+    top: 83%;
+    box-shadow: inset -1px -1px #292929, inset 1px 1px white, 
+    inset -2px -2px rgb(158, 158, 158), inset 2px 2px white;
+}
+
+.boton:hover{
+    box-shadow: inset -1px -1px white, 
+    inset 1px 1px #292929, inset -2px -2px white, 
+    inset 2px 2px rgb(158, 158, 158);
+    background-color: rgb(50, 50, 50);
+    color: gainsboro;
+}
+
+#Seleccion-ataque{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boton-de-ataque{
+    background-color: aquamarine;
+    border-radius: 50px;
+}
+
+#mensajes{
+    width: 336px;
+    height: 102px;
+    font-size: large;
+    border-radius: 20px;
+    font-family:'Press Start 2P';
+    background-color:rgba(0, 220, 25, 0.7);
+    margin-top: 16px;
+    border: 0px;
+    position: absolute;
+    top: 50%;
+}
+
+.imagenes-personajes-combate{
+    width: 200px;
+    background-color: blue;
+}
+
+#jugador_carta_ataque{
+    position: relative;
+    left: 20%;
+    top: 30%;
+}
+#enemigo_carta_ataque{
+    position: relative;
+    left: 43%;
+    top: 30%;
+}
+
+#boton-reiniciar{
+  border: transparent;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  font-family: 'Press Start 2P';
+
+}
+.ataques{
+    display: grid;
+    grid-template-columns: 500px 500px;
+}
+
+
+

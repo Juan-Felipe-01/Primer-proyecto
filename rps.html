@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>juego</title>
+    <link rel="stylesheet" href="estilos.css">
+  </head>
+  <body>
+
+    <h1 class="titulo">juego xd</h1>
+
+    <section id="Seleccion-personaje">
+
+      <div class="contenedor-tarjetas"></div>
+
+      <h2 class="subtitulo">Elige tu Personaje </h2>
+
+        <div class="tarjetas-1">
+            <input type="radio" name="Personaje" id="cheems_doomer">
+            <label class="tarjeta-juego" for="cheems_doomer">
+              <p class="nombre_perro">Perro doomer</p>
+              <img class="imagenes-personajes" src="./Imagenesxd/cheems-doomer.png" alt="cheems-doomer">
+            </label>
+              
+            <input type="radio" name="Personaje" id="cheems_dormilon">
+            <label class="tarjeta-juego" for="cheems_dormilon">
+              <p class="nombre_perro">Perro dormilon</p>
+              <img class="imagenes-personajes" src="./Imagenesxd/cheems-dormilon.png" alt="cheems-dormilon">
+            </label>
+            
+            <input type="radio" name="Personaje" id="cheems_elegante">
+            <label class="tarjeta-juego" for="cheems_elegante">
+              <p class="nombre_perro">Perro elegante</p>
+              <img class="imagenes-personajes"  src="./Imagenesxd/cheems-elegante.png" alt="cheems-elegante">
+            </label>
+        </div>
+
+        <div class="tarjetas-2">
+          <input type="radio" name="Personaje" id="cheems_estudioso">
+          <label class="tarjeta-juego" for="cheems_estudioso">
+            <p class="nombre_perro">Perro estudioso</p>
+            <img class="imagenes-personajes" src="./Imagenesxd/cheems-estudioso.png" alt="cheems-estudioso">
+          </label>
+
+          <input type="radio" name="Personaje" id="cheems_gamer">
+          <label class="tarjeta-juego" for="cheems_gamer">
+            <p class="nombre_perro">Perro gamer</p>
+            <img class="imagenes-personajes" src="./Imagenesxd/cheems-gamer.png" alt="cheems-gamer">
+          </label>
+
+          <input type="radio" name="Personaje" id="cheems_general">
+          <label class="tarjeta-juego" for="cheems_general">
+            <p class="nombre_perro">Perro de guerra</p>
+            <img class="imagenes-personajes" src="./Imagenesxd/cheems-general.png" alt="cheems-general">
+          </label>
+        </div>
+
+      </div>
+      <button class="boton" id="boton_personaje">Seleccionar</button>
+      </div>
+    </section>
+
+  <section  id="Seleccion-ataque">
+
+    <div id="mensajes">
+      <p id="resultado">elije un ataque para iniciar</p>
+      <section id="reiniciar">
+       <button id="boton-reiniciar">reiniciar</button>
+      </section>
+    </div>
+
+    <div class="ataques">
+        <div id="jugador_carta_ataque">
+            <p id="jugador"></p> 
+            <img id="imagen_combate_jugador" src="" alt="imagen_del_jugador" class="imagenes-personajes-combate">
+            <p id = "vidas-jugador">3</p>
+            <div id="contenedorAtaqueJugador"></div>
+        </div>
+        <div id="enemigo_carta_ataque">
+            <p id="enemigo"></p> 
+            <img id="imagen_combate_enemigo" src="" alt="imagen_del_enemigo" class="imagenes-personajes-combate">
+            <p id = "vidas-enemigo">3</p>
+            <div id="contenedorAtaqueEnemigo"></div>
+        </div>
+    </div>
+
+    <h2 class="subtitulo-2">Elige tu ataque </h2>
+      
+    <div>
+      <p>
+      <button id="Seleccion_piedra" class="boton-de-ataque">Piedra 🗿</button>
+      <button id="Seleccion_papel" class="boton-de-ataque">Papel 📃</button>
+      <button id="Seleccion_tijera" class="boton-de-ataque">Tijera ✂️</button>
+      </p>
+    </div>
+    
+  </section>
+    <script src="./js/rps.js"></script>
+  </body>
+</html>
